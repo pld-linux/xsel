@@ -1,5 +1,5 @@
 Summary:	X selection manipulation program
-Summary(pl):	Program do manipulacji schowkiem X
+Summary(pl.UTF-8):   Program do manipulacji schowkiem X
 Name:		xsel
 Version:	0.9.6
 Release:	1
@@ -18,10 +18,10 @@ XSel is a command-line program for getting and setting the contents of
 the X selection. Normally this is only accessible by manually
 highlighting information and pasting it with the middle mouse button.
 
-%description -l pl
-XSel to dzia³aj±cy z linii poleceñ program do pobierania i ustawiania
-zawarto¶ci schowka X. Zwykle jest to dostêpne tylko przez rêczne
-pod¶wietlanie informacji i wklejanie ich ¶rodkowym przyciskiem myszy.
+%description -l pl.UTF-8
+XSel to dziaÅ‚ajÄ…cy z linii poleceÅ„ program do pobierania i ustawiania
+zawartoÅ›ci schowka X. Zwykle jest to dostÄ™pne tylko przez rÄ™czne
+podÅ›wietlanie informacji i wklejanie ich Å›rodkowym przyciskiem myszy.
 
 %prep
 %setup -q
