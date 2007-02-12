@@ -1,5 +1,5 @@
 Summary:	X selection manipulation program
-Summary(pl.UTF-8):   Program do manipulacji schowkiem X
+Summary(pl.UTF-8):	Program do manipulacji schowkiem X
 Name:		xsel
 Version:	0.9.6
 Release:	1
