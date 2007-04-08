@@ -8,9 +8,10 @@ Group:		Applications
 Source0:	http://www.vergenet.net/~conrad/software/xsel/download/%{name}-%{version}.tar.gz
 # Source0-md5:	cec2fb09a4101b7f2beab8094234e2f4
 URL:		http://www.vergenet.net/~conrad/software/xsel/
-BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	xorg-lib-libSM-devel
+BuildRequires:	xorg-lib-libXext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
