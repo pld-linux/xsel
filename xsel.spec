@@ -1,12 +1,12 @@
 Summary:	X selection manipulation program
 Summary(pl.UTF-8):	Program do manipulacji schowkiem X
 Name:		xsel
-Version:	0.9.6
+Version:	1.2.0
 Release:	1
 License:	BSD-like
 Group:		Applications
 Source0:	http://www.vergenet.net/~conrad/software/xsel/download/%{name}-%{version}.tar.gz
-# Source0-md5:	cec2fb09a4101b7f2beab8094234e2f4
+# Source0-md5:	75983f143ce83dc259796c6eaf85c8f5
 URL:		http://www.vergenet.net/~conrad/software/xsel/
 BuildRequires:	autoconf
 BuildRequires:	automake
