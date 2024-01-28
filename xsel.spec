@@ -1,17 +1,18 @@
 Summary:	X selection manipulation program
 Summary(pl.UTF-8):	Program do manipulacji schowkiem X
 Name:		xsel
-Version:	1.2.0
+Version:	1.2.1
 Release:	1
 License:	BSD-like
-Group:		Applications
-Source0:	http://www.vergenet.net/~conrad/software/xsel/download/%{name}-%{version}.tar.gz
-# Source0-md5:	75983f143ce83dc259796c6eaf85c8f5
-URL:		http://www.vergenet.net/~conrad/software/xsel/
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	xorg-lib-libSM-devel
-BuildRequires:	xorg-lib-libXext-devel
+Group:		X11/Applications
+#Source0Download: https://github.com/kfish/xsel/releases
+Source0:	https://github.com/kfish/xsel/archive/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	a11b94ec0d664eca48d38cf6f4dea356
+URL:		http://www.kfish.org/software/xsel/
+BuildRequires:	autoconf >= 2.50
+BuildRequires:	automake >= 1:1.14
+BuildRequires:	pkgconfig
+BuildRequires:	xorg-lib-libX11-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -46,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING NEWS README
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*.1x*
+%doc AUTHORS COPYING ChangeLog README rant.txt release_notes
+%attr(755,root,root) %{_bindir}/xsel
+%{_mandir}/man1/xsel.1x*
